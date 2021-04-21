@@ -1,4 +1,4 @@
-func findFirstStringInBrackets(s string) string {
+func findFirstStringInBracket(s string) string {
     i := strings.IndexByte(s, '(')
     if i < 0 {
         return ""
